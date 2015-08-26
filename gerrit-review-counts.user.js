@@ -5,7 +5,7 @@
 // @iconURL      https://review.openstack.org/favicon.ico
 // @icon64URL    https://upload.wikimedia.org/wikipedia/commons/4/4d/Gerrit_icon.svg
 // @author       Dolph Mathews
-// @namespace    https://github.com/dolph
+// @namespace    https://github.com/dolph/gerrit-review-counts
 // @match        http*://review.openstack.org/*
 // @grant        Apache License 2.0
 // ==/UserScript==
