@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Gerrit: review counts
-// @version      0.1
+// @version      0.2
 // @description  Adds review counts to Gerrit dashboards.
 // @iconURL      https://review.openstack.org/favicon.ico
 // @icon64URL    https://upload.wikimedia.org/wikipedia/commons/4/4d/Gerrit_icon.svg
@@ -20,8 +20,8 @@ function render_change_count(sectionHeader, changeCount) {
         sectionHeader.appendChild(changeCountsSpan);
     }
     
-    // Update the change count.
-    changeCountsSpan.innerHTML = ' (' + changeCount + ' changes)';
+    // Update the change count, accounting for the non-plural case.
+    changeCountsSpan.innerHTML = ' (' + changeCount + ' change' + (changeCount != 1 ? 's' : '') + ')';
 }
 
 function count_reviews() {
