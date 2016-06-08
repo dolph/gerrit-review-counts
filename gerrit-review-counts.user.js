@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Gerrit: review counts
-// @version      0.2
+// @version      0.3
 // @description  Adds review counts to Gerrit dashboards.
 // @iconURL      https://review.openstack.org/favicon.ico
 // @icon64URL    https://upload.wikimedia.org/wikipedia/commons/4/4d/Gerrit_icon.svg
