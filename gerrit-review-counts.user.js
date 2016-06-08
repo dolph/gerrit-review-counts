@@ -7,6 +7,7 @@
 // @author       Dolph Mathews
 // @namespace    https://github.com/dolph/gerrit-review-counts
 // @match        http*://review.openstack.org/*
+// @match        http*://review.gerrithub.io/*
 // @grant        Apache License 2.0
 // ==/UserScript==
 
