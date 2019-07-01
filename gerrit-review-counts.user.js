@@ -8,6 +8,7 @@
 // @namespace    https://github.com/dolph/gerrit-review-counts
 // @match        http*://review.openstack.org/*
 // @match        http*://review.gerrithub.io/*
+// @match        http*://review.opendev.org/*
 // @grant        Apache License 2.0
 // ==/UserScript==
 
